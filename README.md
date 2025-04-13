@@ -3,6 +3,15 @@
 ## Overview
 This project implements a machine learning solution for predicting credit risk using the German Credit Dataset. It provides a comprehensive analysis of credit risk factors and develops predictive models to assist in credit decision-making.
 
+## Documentation & Analysis
+
+The complete analysis with visualizations can be viewed in your browser:
+- [Credit Risk Analysis Documentation](docs/index.html)
+- [Exploratory Data Analysis Notebook](docs/credit_risk_analysis.html)
+- [Model Development Notebook](docs/credit_risk_modeling.html)
+
+These HTML versions include all the visualizations, code outputs, and detailed analysis from the notebooks.
+
 ## Dataset
 The dataset used in this project is the German Credit Dataset, available on [Kaggle](https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsgermancsv). It contains information about 1000 loan applicants with various features including:
 - Credit amount
@@ -17,7 +26,11 @@ The dataset used in this project is the German Credit Dataset, available on [Kag
 ├── credit_risk_analysis.ipynb    # Exploratory Data Analysis (EDA)
 ├── credit_risk_modeling.ipynb    # Model Development and Evaluation
 ├── german.csv                    # Dataset
-└── requirements.txt              # Python dependencies
+├── requirements.txt              # Python dependencies
+└── docs/                        # Documentation
+    ├── index.html              # Documentation home
+    ├── credit_risk_analysis.html   # EDA notebook (readable version)
+    └── credit_risk_modeling.html   # Modeling notebook (readable version)
 ```
 
 ## Key Features
